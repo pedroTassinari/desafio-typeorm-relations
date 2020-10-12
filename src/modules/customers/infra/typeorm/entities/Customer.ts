@@ -11,10 +11,10 @@ class Customer {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column('string')
+  @Column()
   name: string;
 
-  @Column('string')
+  @Column()
   email: string;
 
   @CreateDateColumn()
